@@ -1,12 +1,15 @@
-import './Appli.scss';
+import React from "react";
+import Commentaires from "./ListeCommentaires";
+import Admin from "./Admin"; // Importez vos autres composants si nécessaire
 
 function Appli() {
-
   return (
     <div className="Appli">
-      Gabrit React/Vite du cours 582-4PA
+      <h1>Exercice 5</h1>
+      <Commentaires />
+      <Admin />
     </div>
-  )
+  );
 }
 
 export default Appli;
